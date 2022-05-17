@@ -1,0 +1,19 @@
+body{
+  
+}
+.container{
+
+
+  background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+}
+
+.text-logo div {
+  display: inline-block;
+
+}
+.container .text-logo{
+
+  /*width: 241px;*/
+  /*height: 3px;*/
+
+}

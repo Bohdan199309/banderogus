@@ -1,0 +1,124 @@
+/*------------Обнуление------------------------*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  /*height: 100%;*/
+  wieight: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-emphasis: none;}
+ul,li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+body{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+
+}
+.conteiner{
+  position: relative;
+  background: #1B1D1F ;
+  opacity: 0.7
+  width: 1360px;
+  height: 768px;
+}
+.box{
+  position: relative;
+  width: 573px;
+  height: 524px;
+  left: calc(50% - 287px);
+  top: calc(50% - 262px);
+  background-color: #fff;
+  padding: 32px 0 72px 0;
+}
+.x{
+ display: inline-block;
+ position: absolute;
+ top: 29px;
+ right: 29px;
+}
+.trezub{
+  text-align: center;
+  margin: 0 0 32px 0;
+}
+.text h1{
+font-family: 'Montserrat';
+text-align: center;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 24px;
+margin: 0 0 12px 0;
+}
+.text p{
+text-align: center;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: ##000000;
+}
+.bottom{
+  margin: 24px 0 0 0 ;
+  position: relative;
+}
+.bottom input{
+ 
+  position: relative;
+  margin:0 auto;
+  width: 374px;
+  height: 48px;
+  border: 1px solid #005BBB;
+  border-radius: 8px;
+  margin: 16px 0 16px 0;
+}
+.btn{
+  display:block;
+  position: relative;
+  margin: 34px auto 0 auto ;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  border: 2px solid #FF6B0A;
+  background: #FF6B0A;
+  border-radius: 8px;
+  color: #fff;
+  width: 176px;
+
+}
+.bt1{
+width: 374px;
+margin: 0 auto;
+}

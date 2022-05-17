@@ -1,0 +1,244 @@
+/*------------Обнуление------------------------*/
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,*:before,*:after{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+  height: 100%;
+  wieight: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-emphasis: none;}
+ul,li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+
+
+
+body{
+  font-size: 16px;
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+.content{
+
+  padding: 5px 0px 0px 0px;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative;
+ 
+} 
+.HEADER{
+  background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+}
+
+
+.content-header {
+  padding: 33px 0px 7px 0;
+  
+}
+.content-top__logo {
+  
+  margin-top: 2px;
+ 
+ 
+}
+.content-top__title {
+    margin:2px 0px 0px 15px;
+    max-width: 125px;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+   
+}
+
+.content-top {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  width: 1360px;
+  height: 700px;
+  margin: 0 0 52px 0;
+}
+.content-top__text{
+  margin: 57px 62px 80px 95px;
+  background-color: #fff;
+  padding: 60px 55px;
+  width: 573px;
+  height: 520px; 
+}
+.content-top__text p:nth-child(1){
+    margin: 0 0 16px 0;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F ;
+}
+.content-top__text p:nth-child(2){
+    margin: 0 0 48px 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FF6B0A;
+}
+.content-top__text h1{
+    margin: 0 0 24px 0;
+    font-size: 64px;
+    line-height: 72px;
+    color: #1B1D1F;
+}
+.content-top__text p:nth-child(3){
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1B1D1F;
+}
+.content-btn {
+  margin: 48px 0 0 0;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 12px 24px;
+  border: 2px solid #FF6B0A;
+  background: #FF6B0A;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.content-btn:hover{
+  content: ;
+  background-color: grey;
+}
+.content-btn:active{
+  content: ;
+  background-color: #000;
+}
+
+.content-top__item {
+ 
+}
+
+.content-top_imeg {
+  height: 620px
+  width: 595px;
+  border-radius: 0px;
+
+  
+}
+
+.content-mid {
+  background-color: #fff;
+  margin: 0px 0 72px 0;
+}
+.content-mid__trezub {
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.content-mid__text {
+  
+  
+  text-align: center;
+}
+.content-mid__text h2{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  color: #1B1D1F;
+}
+.content-mid__text p{
+  
+  font-size: 16px;
+  line-height: 24px;
+
+}
+.content-mid__gusi{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+
+
+.content-mid__gusi h3{
+  display: flex;
+  text-align: left;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1B1D1F;
+  margin: 0 0 32px 45px;
+}
+.content-mid__gusi p{
+  display: flex;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  margin: 0 0 72px 45px;
+}
+.content-mid__gusi p:nth-child(1){
+  width: 280px;
+  height: 72px;
+}
+.content-mid__gusi p:nth-child(2){
+  width: 280px;
+  height: 72px;
+}
+.content-mid__gusi p:nth-child(3){
+  width: 280px;
+  height: 72px;
+}
+.content-bottom {
+  background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+  padding: 72px 0 72px 0;
+  margin: 0 0 72px 0px;
+}
+.content-bottom__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0 16px 0;
+}
+.content-bottom__text {
+
+}
+.content-bottom__text h4{
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 100px;
+  text-align: center;
+}
+.content-bottom__text p{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
