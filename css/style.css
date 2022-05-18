@@ -218,9 +218,11 @@ body{
   height: 72px;
 }
 .content-bottom {
-  background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
-  padding: 72px 0 72px 0;
-  margin: 0 0 72px 0px;
+    width: 1170px;
+    height: 376px;
+    background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
+    padding: 72px 0 72px 0;
+    margin: 0 auto 72px auto;
 }
 .content-bottom__logo {
   display: flex;
