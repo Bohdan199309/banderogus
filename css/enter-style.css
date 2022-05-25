@@ -5,9 +5,9 @@
   border: 0;
 }
 *,*:before,*:after{
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+-box-sizing: border-box;
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
@@ -16,7 +16,7 @@ nav,footer,header,aside{display: block;}
 
 html,body{
   /*height: 100%;*/
-  wieight: 100%;
+  width: 100%;
   font-size: 100%;
   line-height: 1;
   font-size: 14px;
@@ -49,7 +49,7 @@ body{
 .conteiner{
   position: relative;
   background: #1B1D1F ;
-  opacity: 0.7
+  opacity: 0.7;
   width: 1360px;
   height: 768px;
 }
@@ -63,10 +63,10 @@ body{
   padding: 32px 0 72px 0;
 }
 .x{
- display: inline-block;
- position: absolute;
- top: 29px;
- right: 29px;
+display: inline-block;
+position: absolute;
+top: 29px;
+right: 29px;
 }
 .trezub{
   text-align: center;
@@ -88,14 +88,13 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-color: ##000000;
+color: #000000;
 }
 .bottom{
   margin: 24px 0 0 0 ;
   position: relative;
 }
 .bottom input{
- 
   position: relative;
   margin:0 auto;
   width: 374px;
