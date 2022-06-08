@@ -51,7 +51,6 @@ body{
   max-width: 1360px;
   margin: 0 auto;
   position: relative;
- 
 } 
 .HEADER{
   background: linear-gradient(270deg, #A5DEFF 0%, #FCFEFF 100%);
@@ -65,8 +64,6 @@ body{
 .content-top__logo {
   
   margin-top: 2px;
- 
- 
 }
 .content-top__title {
     margin:2px 0px 0px 15px;
@@ -75,7 +72,6 @@ body{
     font-weight: 500;
     font-size: 12px;
     line-height: 15px;
-   
 }
 
 .content-top {
