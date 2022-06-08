@@ -59,7 +59,7 @@ body{
 
 
 .content-header {
-  padding: 33px 0px 7px 0;
+  padding: 33px 0px 7px 90px;
   
 }
 .content-top__logo {
@@ -157,7 +157,8 @@ body{
 
 .content-mid {
   background-color: #fff;
-  margin: 0px 0 72px 0;
+  padding: 0 0 72px 0;
+  margin: 0px 0 -72px 0;
 }
 .content-mid__trezub {
   display: flex;
