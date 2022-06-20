@@ -48,8 +48,7 @@ body{
 }
 .conteiner{
   position: relative;
-  background: #1B1D1F ;
-  opacity: 0.7;
+  background: rgb(27 29 31 /70%);
   width: 1360px;
   height: 768px;
 }
@@ -67,6 +66,14 @@ display: inline-block;
 position: absolute;
 top: 29px;
 right: 29px;
+}
+.x:hover{
+  content: ;
+  background-color: grey;
+}
+.x:active{
+  content: ;
+  background-color: #000;
 }
 .trezub{
   text-align: center;

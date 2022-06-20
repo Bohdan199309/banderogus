@@ -67,6 +67,14 @@ body{
  top: 29px;
  right: 29px;
 }
+.x:hover{
+  content: ;
+  background-color: grey;
+}
+.content-btn:active{
+  content: ;
+  background-color: #000;
+}
 .trezub{
   text-align: center;
   margin: 0 0 32px 0;

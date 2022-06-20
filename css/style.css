@@ -41,13 +41,14 @@ h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
 
 
 body{
+  line-height: 24px;
+  font-weight: 600px;
   font-size: 16px;
   font-family: 'Montserrat';
   font-style: normal;
 }
 .content{
 
-  padding: 5px 0px 0px 0px;
   max-width: 1360px;
   margin: 0 auto;
   position: relative;
@@ -62,12 +63,11 @@ body{
   
 }
 .content-top__logo {
-  
-  margin-top: 2px;
 }
 .content-top__title {
-    margin:2px 0px 0px 15px;
+    margin-left: 16px;
     max-width: 125px;
+    vertical-align: middle;
     display: inline-block;
     font-weight: 500;
     font-size: 12px;
@@ -193,7 +193,7 @@ body{
   font-size: 24px;
   line-height: 24px;
   color: #1B1D1F;
-  margin: 0 0 32px 45px;
+  margin: 0 0 32px 12px;
 }
 .content-mid__gusi p{
   display: flex;
